@@ -1,0 +1,120 @@
+*{box-sizing:border-box;}
+
+body
+{   display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;;
+    height: 870px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(112, 106, 106);
+    border-radius: 5px;
+    gap: 2px;
+    padding: 1px;
+    margin: 1px;
+
+}
+
+.header1
+{   
+    border-style: solid;
+    border-color: rgb(180, 233, 102);
+    border-radius: 5px;
+    width: 100%;
+    height: 15%;
+    
+}
+
+.nav1
+{   
+    border-style: solid;
+    border-color:rgb(238, 93, 93);
+    border-radius: 5px;
+    height: 10%;
+    width: 100%;
+}
+
+.Article1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-style: solid;
+    flex-wrap: wrap;
+    border-color:rgb(40, 122, 230);
+    border-radius: 5px;
+    width: 65%;
+    height: 65%;
+    text-align: start;
+    
+    
+}
+    .header2{
+        border-style: solid;
+        border-color:rgb(180, 233, 102);
+        border-radius: 5px;
+        width: 100%;
+        height: 60px;}
+    .espacio{
+        width: 100%;
+        height: 240px;
+        }
+    .section1{
+        border-style: solid;
+        text-align: start;
+        border-color:rgb(160, 55, 160);
+        border-radius: 5px;
+        width: 100%;
+        height: 60px;}
+    .section2{
+        border-style: solid;
+        text-align: start;
+        border-color:rgb(160, 55, 160);
+        border-radius: 5px;
+        width: 100%;
+        height: 60px;}
+    .footer1{
+        border-style: solid;
+        text-align: start;
+        border-color:yellow;
+        border-radius: 5px;
+        width: 100%;
+        height: 60px;}
+
+.Div
+{   display: flex;
+    flex-direction: row;
+    justify-content:start;
+    flex-wrap: wrap;
+    border-style: solid;
+    text-align: start;
+    border-color:orange;
+    border-radius: 5px;
+    gap: 1px;
+    width: 33%;
+    height: 65%;
+}
+    .aside1{
+        border-style: solid;
+        border-color:aqua;
+        border-radius: 5px;
+        width:100%;
+        height: 42%;
+        margin: 2px;}
+    .aside2{
+        border-style: solid;
+        border-color:aqua;
+        border-radius: 5px;
+        width:100%;
+        height: 42%;
+        margin: 2px;}
+
+.footer2{
+    border-style: solid;
+    text-align: start;
+    border-color:yellow;
+    border-radius: 5px;
+    width: 100%;
+    height: 8%;}
