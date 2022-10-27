@@ -1,0 +1,247 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    display: block;
+    block-size: auto;  
+}
+
+.contenedor1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+/* cabecera */
+.header
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+
+.lado1{width: 50%;}
+.lado1 img
+{
+    width: 350px;
+    height: 100px;
+}
+.lado2
+{
+    max-width: 900px;
+    margin: auto;
+    background-color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu-horizontal
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal li a
+{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal li:hover 
+{
+    background-color: blue;
+}
+.menu-vertical
+{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+}
+.menu-horizontal li:hover .menu-vertical
+{
+    display: block;
+}
+.menu-vertical li:hover
+{
+    background-color: blue;
+}
+.menu-vertical li a
+{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+.otro{display: none;}
+
+/* cuerpo1 */
+
+.cuerpo
+{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+    gap: 1rem;
+    margin: 3rem;
+}
+
+.pres1
+{
+    font-size: 40px;
+}
+.pres2
+{
+    font-size: 60px;
+    margin-bottom: 250px;
+}
+.pres2 span
+{
+    color: blue;
+}
+
+.convocatoria
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    height: 150px; 
+    font-size: 40px;
+}
+
+.convocatoria a
+{
+    text-decoration: none;
+    color: blue;
+}
+.logo
+{
+    height: 150px;
+    width: 150px;  
+}
+.letras
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 95%;
+    height: 150px;
+}
+
+
+
+/* cuerpo2 */
+
+.contenedor2
+{
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+    background-color: blue;
+}
+.lateral
+{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 150px;
+    background-color: white;
+}
+.lateral a img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.contenido
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 95%;
+}
+
+.espacio_contenido
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.conte 
+{
+    width: 100%;
+    color: white;
+}
+.conte a
+{
+    text-decoration: none;
+    color: white;
+}
+.conte a:hover{color: black;}
+.con1
+{
+    font-size: 50px;
+}
+.con2
+{
+    font-size: 80px;
+}
+
+.boton
+{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: black;
+    
+}
+.boton a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+.parallax
+{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax.cover-1
+{
+    background-image: url(img/ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+}
