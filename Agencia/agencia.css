@@ -1,0 +1,281 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.cabecera
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.cabecera a
+{
+    margin: 10px;
+    padding:10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600 ;
+    
+}
+.cabecera a:hover
+{
+    color: black;
+    border: solid black 2px;
+    border-radius: 4px;
+}
+
+.titulo
+{
+    font-size: 70px;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.centro
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    height: 65vh;
+    padding: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.letras
+{   
+
+    width: 1000px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.imagenes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    gap: 100px;
+    position: relative;
+}
+
+.imagenes img
+{
+    border-radius: 20px;
+}
+
+.texto1
+{
+    
+    padding: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 15%; 
+    color: white;
+}
+
+.texto2
+{
+    padding: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 70%; 
+    color: white;
+}
+
+
+
+.enmedio
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f53c5;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+.informacion
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    width: 1500px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.empresa
+{
+    font-size: 50px;
+    
+   
+}
+
+
+
+.formulario
+{
+    width: 500px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow:  7px 13px 37px #000;
+}
+
+.formulario h4
+{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.formulario p
+{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.formulario a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.formulario a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.botones
+{   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10%;
+}
+
+.boton
+{
+    width: 45%;
+    background: #1f53c5;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.boton:hover{text-decoration: underline;}
+
+.controles
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+
+.lista1
+{
+    display:none;
+}
+
+.lista2
+{
+    width: 100%;
+}
+
+.tabla
+{
+    width: 1000px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow:  7px 13px 37px #000;
+} */
+
+ .tabla th
+ .tablaa
+{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.letras
+{
+    color: black;
+}
+
+.foot
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #1f53c5;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 20px; 
+}
+.enlaces a
+{
+    padding: 5px;
+}

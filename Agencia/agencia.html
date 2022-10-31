@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORLD TRAVEL AGENCY</title>
+    <link rel="stylesheet" href="agencia.css">
+</head>
+<body>
+<div class="main">
+
+    <header class="cabecera">
+        <div class="logo">
+            <figure><img width="150" height="120" src="img/tierra-removebg-preview.png" alt=""> </figure>
+        </div>
+        <div class="titulo">World Travel Agency</div>
+        <nav class="enlaces">
+            <a href="#" class="inicio">Inicio</a>
+            <a href="#" class="viajes">Viajes</a>
+            <a href="#" class="contacto">Contacto</a>
+        </nav>
+    </header>
+
+    
+    <div class="centro">
+        <section class="letras">
+            <div class="titulo">World Travel Agency</div>
+            <div class="descripcion">Este 2022, descubre una nueva manera de viajar</div>
+            <p>!Miles de destinos a tu alcance!</p>
+        </section>
+        <aside class="imagenes">
+            <div ><img class="foto1" width="300" height="400" src="img/playa1.jpg" alt="">  <h3 class="texto1">MALLORCA</h3> </div>
+            <div ><img class="foto2" width="300" height="400" src="img/playa2.jpg" alt=""> <h3 class="texto2">GALICIA</h3></div>
+        </aside>
+    </div>
+
+    <h1 class="enmedio">APROVECHA LAS OFERTAS!</h1>
+
+    <div class="informacion">
+        <div class="empresa">En World Travel Agency, te ofrecemos una gran agencia de viajes en Madrid con años de experiencia en la <strong> promocion y ofertas de viajes </strong>incluyendo <strong>tours a medida, viajes en grupo, viajes de empresa </strong>y <strong>viajes tematicos.</strong></div>
+        <div class="antesdeF">
+        <section class="formulario"> 
+            <h4>Formulario para Viajes</h4>
+            <input class="controles" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <input class="controles" type="search" name="origen" id="origen" placeholder="Ingrese su origen">
+            <input class="controles" type="search" name="destino" id="destino" placeholder="Ingrese su destino">
+            <input class="controles" type="number" name="numP" id="numPersonas" placeholder="Numero de personas">
+            <input class="controles" type="date" name="fecha" id="fecha">
+            <p><input type="checkbox" name="check" class="check"> Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
+            <div class="botones">
+                <input class="boton" onclick="agregarPersonas()" type="reset" value="Solicitar Informacion">
+                <input class="boton" onclick="mostrarInfo()" type="submit" value="Filtrar">
+            </div>
+            
+        </section>
+
+        </div>
+    </div>
+
+    <div class="lista1 lista2">
+        <table class="tabla" id="personas">
+
+            <tr class="tablaa">
+                <!-- <th>Nombre</th>
+                <th>Origen</th>
+                <th>Destino</th>
+                <th>Num.P</th>
+                <th>Fecha</th> -->
+
+            </tr>        
+
+        </table>
+
+
+    </div>
+
+
+
+<footer class="foot">Nuestras Redes Sociales
+    <nav class="enlaces">
+        <a href="#" class="insta"><img width="50" height="50" src="img/insta.png" alt=""></a>
+        <a href="#" class="face"><img width="50" height="50" src="img/face.png" alt=""></a>
+        <a href="#" class="twitter"><img width="50" height="50" src="img/twitter.png" alt=""></a>
+    </nav>
+</footer>
+</div>
+
+    
+    <script src="agencia.js"></script>
+
+</body>
+</html>
