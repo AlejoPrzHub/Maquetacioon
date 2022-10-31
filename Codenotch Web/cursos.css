@@ -1,0 +1,190 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    display: block;
+    block-size: auto;  
+}
+
+/* cabecera */
+.header
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+
+.lado1{width: 50%;}
+.lado1 img
+{
+    width: 350px;
+    height: 100px;
+}
+.lado2
+{
+    max-width: 900px;
+    margin: auto;
+    background-color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.menu-horizontal
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal li a
+{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal li:hover 
+{
+    background-color: blue;
+}
+.menu-vertical
+{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0,0,0,.5);
+}
+.menu-horizontal li:hover .menu-vertical
+{
+    display: block;
+}
+.menu-vertical li:hover
+{
+    background-color: blue;
+}
+.menu-vertical li a
+{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+.otro{display: none;}
+
+
+/* cuerpo */
+.main
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    height: 81vh;
+
+}
+
+
+.logo a:hover{color: black;}
+
+.precios
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background: #aaa;
+    margin-top: 150px;
+    position: relative;
+    max-height: 300px;
+    
+}
+
+.euro
+{
+    position: absolute;
+    left: 69px;
+    color: #8e8e8e;
+}
+
+.numero
+{
+    font-size: 50px;
+    color: blue
+}
+
+.mes
+{
+    font-size: 13px;
+    color: #8e8e8e;
+}
+
+.tabla
+{
+    background-color: white;
+    padding: 30px;
+    box-shadow:  -2px -4px 5px #ccc;
+}
+
+.caracteristicas
+{
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-bottom: 30px;
+}
+
+.boton
+{
+    background: #1f53c5;
+    text-decoration: none;
+    color: white;
+    padding: 8px 22px;
+}
+
+.tabla1{position: relative;}
+.tabla2{position: relative;}
+.tabla3{position: relative;}
+
+.cuadradoSuperior
+{
+    width: 324px;
+    min-height: 40px;
+    background-color: white;
+    position: absolute;
+    top: -38px;
+    left: 0%;
+    box-shadow:  -2px -4px 5px  #ccc;
+
+}
+
+.cuadradoInferior
+{
+    width: 324px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    bottom: -38px;
+    left: 0;
+    box-shadow:  -1px 4px 5px  #ccc;
+
+}
+
+.footer
+{
+    display: flex;
+    width: 100%;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 1rem;
+}
