@@ -1,0 +1,99 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+
+.tablero
+{
+    margin: auto;
+    width: 600px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:  200px 200px 200px;
+}
+
+.boton
+{
+    font-size: 10em;
+}
+
+.botones
+{
+    margin: auto;
+    padding: 50px;
+    width: 600px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    grid-template-rows:  120px ;
+    gap: 20px;
+    
+}
+
+.reinicio
+{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.letras
+{
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px;
+    grid-template-rows:  150px ;
+    border: 1px solid white;
+    padding: 30px;
+    gap:60px;
+    border-radius: 20px;
+}
+.letras h1{font-size: 80px;}
+
+.victorias
+{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:  150px ;
+    text-align: center;
+    gap: 10px;
+    
+}
+.jugador
+{
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.jugador p
+{
+    font-size: 80px;
+}
+
+.contador{align-items: center;
+padding: 10px;}
