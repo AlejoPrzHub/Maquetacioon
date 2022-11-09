@@ -39,7 +39,7 @@
                     <input class="controles" id="idioma" type="text" placeholder="Idioma">
                     <input class="controles" id="plataforma" type="text" placeholder="Plataforma">
                     <input class="controles" id="mcu" type="text" placeholder="Es MCU?">
-                    <input class="controles boton" id="subir" type= "reset" value="SUBIR">
+                    <input class="controles boton" id="subir" type= "reset" value="SUBIR" onclick="agregarPeliculas()">
                 </form>
             </div>  
 
@@ -48,10 +48,27 @@
             <!-- modal -->
 
             <div class="modal-container">
-                <h5 class="modal-title">TUS PELICULAS</h5>
+                
                 <div class="modal modal-close">
+                    <h2 class="modal-title">TUS PELICULAS</h2>
                     <p class="close">X</p>
+                    <div id="modal-cuerpo" class="modal-cuerpo">
+                        <div class="pelicula" id="peliculas">
+                            <div class="peli"><img src="img/El_Cover-669626430-large.jpg" alt=""></div>
+                            <div class="contenido">
+                                <p id="t1">titulo</p>
+                                <p id="t2">año</p>
+                                <p id="t3">genero</p>
+                                <p id="t4">idioma</p>
+                                <p id="t5">plataforma</p>
+                                <p id="t6">mcu</p>
+                            </div>
 
+                        </div>
+
+                    
+
+                    </div>
                 </div> 
 
             </div>

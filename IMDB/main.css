@@ -158,14 +158,14 @@
 
 .modal
 {
-    width: 40%;
-    height: 60%;
-    background-color: white;
+    width: 30%;
+    height: 80%;
+    background-image: linear-gradient(120deg, #DEB841 0%, #fda085 100%);
     /* overflow: hidden; */
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     position: relative;
     transition: transform 1s;
     transform: translateY(0%);
@@ -175,6 +175,60 @@
 .modal-close
 {
     transform: translateY(-200%);
+}
+
+
+.modal-title
+{
+    position: absolute;
+    top: 5px;
+    left: 35%;
+}
+.modal-cuerpo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+.pelicula
+{
+    display: none;
+    flex-direction: row;
+    background-color: white;
+    border: #c44a4a solid 2px;
+    border-radius: 10px;
+    width: 80%;
+    height: 300px;
+    margin: 40px 0;
+   
+}
+.peli
+{
+    width: 50%;
+    height: 300px;
+}
+.peli img
+{
+    padding: 8px;
+    height: 290px;
+}
+.contenido
+{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-evenly;
+    height: 300px;
+    width: 50%;
+}
+
+.contenido p
+{
+    font-size: 20px;
+    text-align: start;
 }
 
 .close
@@ -191,5 +245,3 @@
     cursor: pointer;
     border-radius: 10px;
 }
-
-

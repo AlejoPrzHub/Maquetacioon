@@ -71,3 +71,35 @@ cerrar.addEventListener("click",function()
     modalC.style.visibility = "hidden";},700)
 });
 
+
+// funciones
+
+let peliculas=[];
+
+function agregarPeliculas()
+{
+    let imagen = document.getElementById("imgAdd");
+    let titulo = document.getElementById("titulo");
+    let anyo = document.getElementById("anyo");
+    let genero = document.getElementById("genero");
+    let idioma = document.getElementById("idioma");
+    let plataforma = document.getElementById("plataforma");
+    let mcu = document.getElementById("mcu");
+
+    let peli = new Movie(imagen.value,titulo.value,anyo.value,genero.value,0,genero.value,0,0,0,idioma.value,plataforma.value,mcu.value,0,0);
+
+    peliculas.push(peli);
+    // mostrarPeliculas();
+
+}
+
+// function mostrarPeliculas()
+// {
+//     let cuerpo = getElementById("modal-cuerpo");
+    
+//     document.getElementById("t1").innerHTML=$`{titulo.value}`
+
+    
+    
+// }
+
