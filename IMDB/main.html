@@ -32,14 +32,14 @@
 
             <div class="preformulario">
                 <form class="formulario" enctype="multipart/form-data">
-                    <input class="controles" id="imgAdd" type="file" placeholder="Inserta una imagen">
+                    <input class="controles" id="imgAdd" type="file" name="select img">
                     <input class="controles" id="titulo" type="text" placeholder="Titulo">
                     <input class="controles" id="anyo" type="text" placeholder="Año de lanzamiento">
                     <input class="controles" id="genero" type="text" placeholder="Genero">
                     <input class="controles" id="idioma" type="text" placeholder="Idioma">
                     <input class="controles" id="plataforma" type="text" placeholder="Plataforma">
                     <input class="controles" id="mcu" type="text" placeholder="Es MCU?">
-                    <input class="controles boton" id="subir" type= "reset" value="SUBIR" onclick="agregarPeliculas()">
+                    <input class="controles boton" id="subir" type= "reset" value="SUBIR" onclick= "agregarPeliculas()">
                 </form>
             </div>  
 
@@ -53,18 +53,18 @@
                     <h2 class="modal-title">TUS PELICULAS</h2>
                     <p class="close">X</p>
                     <div id="modal-cuerpo" class="modal-cuerpo">
-                        <div class="pelicula" id="peliculas">
-                            <div class="peli"><img src="img/El_Cover-669626430-large.jpg" alt=""></div>
+                        <!-- <div class="pelicula" id="peliculas">
+                            <div class="peli"><img src= ${peli.photo} alt=""></div>
                             <div class="contenido">
-                                <p id="t1">titulo</p>
-                                <p id="t2">año</p>
-                                <p id="t3">genero</p>
-                                <p id="t4">idioma</p>
-                                <p id="t5">plataforma</p>
-                                <p id="t6">mcu</p>
+                                <p id="t1">${peli.title}</p>
+                                <p id="t2">${peli.releaseYear}</p>
+                                <p id="t3">${peli.genre}</p>
+                                <p id="t4">${peli.language}</p>
+                                <p id="t5">${peli.plataforma}</p>
+                                <p id="t6">${peli.isMCU}</p>
                             </div>
-
-                        </div>
+                        </div> -->
+                       
 
                     
 

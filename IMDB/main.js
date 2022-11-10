@@ -88,18 +88,37 @@ function agregarPeliculas()
 
     let peli = new Movie(imagen.value,titulo.value,anyo.value,genero.value,0,genero.value,0,0,0,idioma.value,plataforma.value,mcu.value,0,0);
 
+    
+    const cuerpo = document.getElementById("modal-cuerpo");
+    function mostrarPeliculas()
+    {
+        const div = document.createElement(`div`);
+        div.innerHTML=
+        `
+        <div class="pelicula" id="peliculas">
+                            <div class="peli"><img src="img/El_Cover-669626430-large.jpg" alt=""></div>
+                            <div class="contenido">
+                                <p id="t1">${peli.title}</p>
+                                <p id="t2">${peli.releaseYear}</p>
+                                <p id="t3">${peli.genre}</p>
+                                <p id="t4">${peli.language}</p>
+                                <p id="t5">${peli.plataforma}</p>
+                                <p id="t6">${peli.isMCU}</p>
+                            </div>
+                        </div>
+        `
+        cuerpo.appendChild(div);
+    }
+
     peliculas.push(peli);
-    // mostrarPeliculas();
+    mostrarPeliculas(peliculas)
 
 }
 
-// function mostrarPeliculas()
-// {
-//     let cuerpo = getElementById("modal-cuerpo");
     
-//     document.getElementById("t1").innerHTML=$`{titulo.value}`
+    
 
     
     
-// }
+
 
